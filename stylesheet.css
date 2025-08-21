@@ -13,6 +13,19 @@ header, footer {
 	color: #cbb28e;
 }
 
+.hero-section {
+	/*background-image: url("https://i.imgur.com/rPEiSZF.jpeg");*/
+	background-image: url("resources/imgs/banner-img.png");
+	background-repeat: repeat-x;
+	background-size: auto;
+	background-position: center;
+	height: 50vh;
+	-webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	-webkit-mask-size: cover;
+}
+
 .btn-custom {
 	background-color: #f4ebe9;
 	color: #464a4e;
@@ -31,6 +44,11 @@ header, footer {
 
 .btn-custom:hover {
 	background-color: #e5d8d4;
+}
+
+.tag-custom {
+	background-color: #f4ebe9;
+	color: #464a4e;
 }
 
 /* Custom Light Theme Styling */
@@ -70,10 +88,9 @@ header, footer {
 	color: #464a4e !important;
 }
 
-.home-img {
-	border-radius: 10px;
-	width: 100%;
-	height: auto;
+[data-bs-theme="light"] .tag-custom {
+	background-color: #464a4e;
+	color: #f4ebe9;
 }
 
 nav a {
