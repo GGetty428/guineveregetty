@@ -2,7 +2,7 @@ function updateThemeBtn(targetedTheme) {
 	// Get the Icon so we can set it to Moon or Sun
 	const icon = document.getElementById("themeIcon");
 
-	// Clear existing animation
+	// Clear existing animation 
 	icon.classList.remove("rotate");
 
 	// Update icon SVG content based on theme
