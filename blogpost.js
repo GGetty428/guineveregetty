@@ -193,24 +193,4 @@ function BlogPostFound(post, index, arrayOfPosts)
     `;
 
   modalContainer.insertAdjacentHTML("beforeend", modalHtml);
-
-  // Prevent auto-scroll when modal is shown
-  const modalElement = document.getElementById(modalId);
-  if (modalElement) {
-    modalElement.addEventListener('shown.bs.modal', function() {
-      const modalBody = this.querySelector('.modal-body');
-      if (modalBody) {
-        modalBody.scrollTop = 0; // Reset scroll position to top
-      }
-    });
-    
-    // Prevent any automatic scrolling behavior
-    modalElement.addEventListener('show.bs.modal', function(e) {
-      // Prevent default focus behavior that might cause scrolling
-      const modalBody = this.querySelector('.modal-body');
-      if (modalBody) {
-        modalBody.scrollTop = 0;
-      }
-    });
-  }
 }
