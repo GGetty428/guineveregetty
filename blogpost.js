@@ -150,8 +150,10 @@ function BlogPostFound(post, index, arrayOfPosts)
 
     carouselHtml = `
       <div id="${carouselId}" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel">
-        <div class="carousel-inner mx-3 px-5">
-          ${carouselItemsHtml}
+        <div class="carousel-inner">
+          <div class="mx-3 px-5">
+            ${carouselItemsHtml}
+          </div>
         </div>
         <div class="carousel-indicators">
           ${indicatorsHtml}
@@ -170,7 +172,7 @@ function BlogPostFound(post, index, arrayOfPosts)
 
   const modalHtml = `
       <div class="modal fade" id="${modalId}" tabindex="-1" aria-labelledby="${modalId}_Title">
-        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header" style="color: #cbb28e;">
               <h5 class="modal-title w-100 text-center" id="${modalId}_Title">
