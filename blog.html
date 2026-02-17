@@ -5,11 +5,12 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>
-			Guinevere Getty
+			Blog | Guinevere Getty
 		</title>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 		<link href="./stylesheet.css" rel="stylesheet">
 	</head>
+
 
 	<body>
 		<nav class="navbar navbar-expand-lg px-4 py-3">
@@ -56,23 +57,46 @@
 				</div>
 			</div>
 		</nav>
-		
-		<main class="text-center">
-			<div class="hero-section"></div>
-			<div class="p-5">
-				<h1 class="fw-bold fs-3" style="color: #cbb28e;">
-					Guinevere Getty
-				</h1>
-				<p class="lead mt-3 fs-5">
-					A game designer focused on channeling talent and creativity into meaningful and powerful results. Taking pride in the work that is done, as well as the strong relationships between colleagues. Firmly believing in working hard, working together, and having fun along the way.
-				</p>
-				<a href="portfolio.html" class="btn btn-custom mt-4 px-4 py-2">
-					View Portfolio
-				</a>
+
+		<main class="container py-5">
+			<h1 class="text-center fw-bold mb-5" style="color: #cbb28e;">
+				Weekly Blog
+			</h1>
+			<h6 class="text-center fw-bold mb-5" style="color: #cbb28e;">
+				Posts happen every Monday. Select the date to view the blog post.
+			</h6>
+
+			<!-- Weekly Blog List -->
+			<div class="list-group list-group-flush" id="blog-button-list">
+				
 			</div>
+
+			<!-- Generated Modals via json script-->
+			<div id="blog-modals-container">
+
+			</div>
+
+			<!-- JSON Carousel Options
+			"carousel": [
+        		{
+          			"type": "image",
+          			"src": "image.png",
+          			"alt": "name"
+        		},
+        		{
+          			"type": "youtube",
+          			"src": "youtube.link",
+          			"alt": "name"
+        		},
+        		{
+          			"type": "video",
+          			"src": "gif.mp4",
+          			"alt": "name"
+        		} -->
 		</main>
-		
-		<footer class="text-center py-2 mt-2">
+
+		<!-- Footer with Social Links + Copywrite -->
+		<footer class="text-center py-4 mt-5">
 			<div class="d-flex justify-content-center align-items-center mb-3">
 				<a href="https://www.linkedin.com/in/guinevere-getty/" target="_blank" class="social-icon" aria-label="LinkedIn">
 					<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true">
@@ -88,33 +112,33 @@
 					</svg>
 				</a>
 				<!-- <a href="https://www.artstation.com/yourprofile" target="_blank" class="social-icon" aria-label="ArtStation">
-					<svg fill="#cbb28e" width="28" height="28" viewBox="0 0 24.00 24.00" role="img" xmlns="http://www.w3.org/2000/svg" stroke="#cbb28e" stroke-width="1.8">
-						<title>
-							ArtStation
-						</title>
-						<path d="M0 17.723l2.027 3.505h.001a2.424 2.424 0 0 0 2.164 1.333h13.457l-2.792-4.838H0zm24 .025c0-.484-.143-.935-.388-1.314L15.728 2.728a2.424 2.424 0 0 0-2.142-1.289H9.419L21.598 22.54l1.92-3.325c.378-.637.482-.919.482-1.467zm-11.129-3.462L7.428 4.858l-5.444 9.428h10.887z">
-						</path>
-					</svg>
-				</a> -->
+				<svg fill="#cbb28e" width="28" height="28" viewBox="0 0 24.00 24.00" role="img" xmlns="http://www.w3.org/2000/svg" stroke="#cbb28e" stroke-width="1.8">
+					<title>
+						ArtStation
+					</title>
+					<path d="M0 17.723l2.027 3.505h.001a2.424 2.424 0 0 0 2.164 1.333h13.457l-2.792-4.838H0zm24 .025c0-.484-.143-.935-.388-1.314L15.728 2.728a2.424 2.424 0 0 0-2.142-1.289H9.419L21.598 22.54l1.92-3.325c.378-.637.482-.919.482-1.467zm-11.129-3.462L7.428 4.858l-5.444 9.428h10.887z">
+					</path>
+				</svg>
+			</a> -->
 				<!-- <a href="https://github.com/yourprofile" target="_blank" class="social-icon" aria-label="GitHub">
-					<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24" fill="none" stroke="#cbb28e" stroke-width="1.6">
-						<title>
-							GitHub
-						</title>
-						<path d="M9 19c-4.5 1.5-5-2.2-6-2.5M15 22v-2.3c0-.8.1-1.4-.5-2.1 1.7-.2 3.5-.8 3.5-3.9 0-.9-.3-1.6-.8-2.3.1-.3.3-1.3-.1-2.6 0 0-.7-.2-2.5 1a8.9 8.9 0 0 0-5 0c-1.8-1.2-2.5-1-2.5-1-.4 1.3-.2 2.3-.1 2.6-.5.7-.8 1.4-.8 2.3 0 3.1 1.8 3.7 3.5 3.9-.3.3-.6.8-.5 1.6v2.3">
-						</path>
-					</svg>
-				</a> -->
+				<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24" fill="none" stroke="#cbb28e" stroke-width="1.6">
+					<title>
+						GitHub
+					</title>
+					<path d="M9 19c-4.5 1.5-5-2.2-6-2.5M15 22v-2.3c0-.8.1-1.4-.5-2.1 1.7-.2 3.5-.8 3.5-3.9 0-.9-.3-1.6-.8-2.3.1-.3.3-1.3-.1-2.6 0 0-.7-.2-2.5 1a8.9 8.9 0 0 0-5 0c-1.8-1.2-2.5-1-2.5-1-.4 1.3-.2 2.3-.1 2.6-.5.7-.8 1.4-.8 2.3 0 3.1 1.8 3.7 3.5 3.9-.3.3-.6.8-.5 1.6v2.3">
+					</path>
+				</svg>
+			</a> -->
 			</div>
 			<p style="color: #cbb28e;">
 				&copy; 2025 Guinevere Getty | All content and trademarks property of their respective owners.
 			</p>
 		</footer>
+
+		<script src="./themetoggle.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 		
-		<script src="./themetoggle.js">
-		</script>
-	
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-		</script>
+		<!-- Script for the blog posts to be updated more easily -->
+		<script src="./blogpost.js"></script>
 	</body>
 </html>

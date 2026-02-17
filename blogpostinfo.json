@@ -1,0 +1,119 @@
+{
+  "blogPosts":[
+    { 
+      "id": 0,
+      "title": "February 9th, 2026",
+      "carousel": [
+        {
+          "type": "video",
+          "src": "https://imgur.com/mF93lbQ.mp4",
+          "alt": "BP1_Vid_1"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/QrGQvd4.png",
+          "alt": "BP1_Img_1"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/fLhObwi.png",
+          "alt": "BP1_Img_2"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/XyeCqCg.png",
+          "alt": "BP1_Img_3"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/9k6pt5F.png",
+          "alt": "BP1_Img_4"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/O6Dzdla.png",
+          "alt": "BP1_Img_5"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/cs3JVb4.png",
+          "alt": "BP1_Img_6"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/uf2FV1k.png",
+          "alt": "BP1_Img_7"
+        },
+        {
+          "type": "video",
+          "src": "https://imgur.com/emfzHz6.mp4",
+          "alt": "BP1_Vid_2"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/Usg5RsJ.png",
+          "alt": "BP1_Img_8"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/T55yIm9.png",
+          "alt": "BP1_Img_9"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/Y9emR53.png",
+          "alt": "BP1_Img_10"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/r2rFfWJ.png",
+          "alt": "BP1_Img_11"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/7OPNgV9.png",
+          "alt": "BP1_Img_12"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/AfcwFjA.png",
+          "alt": "BP1_Img_13"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/a7OdSgB.png",
+          "alt": "BP1_Img_14"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/FG1yACq.png",
+          "alt": "BP1_Img_15"
+        }
+      ],
+      "bodyContents": {
+        "0": "This is the start of my weekly blogs. Though \"Dev Logs\" are the more correct term for them, as I intend to update this alongside my Portfolio. While my Portfolio page is more for finished pieces, this blog is more for the lines of \"What did I do this week as a solo Game Designer?\" This will be updated (hopefully) weekly to help get into a nice rhythm and also show off the smaller details of what's being made!",
+        "1": "That said, this first post will be a blanket update of what I've been working on since August of 2025 all the way until the beginning of February. Videos and images of what has been made will be provided in the carousel above. Let's jump right into the meat and potatoes. I'll go in order of the months for an easier timeline.",
+        "2": "August was the more foundation building for a personal project that I've been wanting to build for quite some time. This was mainly laying down the pavement for future planning. I created many documents in a Google Drive that started with just the \"World Idea Info\" - the sole World Building document. This then overflowed into a sub-doc of \"Characters\" - NPCs, Companions, Enemies, etc. The document that houses all written character creation. After that, I had to broaden my thought process. Since I already had a GDD template of ideas, it was when I realised it would be better to create a Feature Request document. Thus this was the month of working on it. Inside, I broke everything down into \"Needs\", \"Wants\", and \"Desires\" - or another way I've heard it being called the \"ABCs\" for mechanics. Listing every mechanic into the categories, the general idea of how I wanted the mechanic to look, and also making sure that Dependencies were written down as well. In total, there is about 20 pages worth of mechanics written in there, with some added in the later months. This document I always come back to. I will not share these on terms of privacy but also this is an idea that has been a dream of mine to make for a few years now. This month was also when I created the Azure Repository for the project I dubbed \"Project Cogwheel\".",
+        "3": "September was the continuation of documentation regarding World Building. This was mostly slotting everything into place that would work alongside the Feature Request document. However, this month was more fitting to say that I created the private Jira board to finally be able to slot everything in place. Knowing how to work Jira and create tickets, I also learned how to create the workflow revolving the tickets, as well as making each Feature a ticket to hold all info in. That way, if I started to create Prototypes, I would be able to fit everything in. September was also the month where I created the first Prototype, which revolved around 3 of the \"Need\" mechanics. The first Prototype was started on Unreal Engine 5, version 5.6. The idea being a short Relay Race game that featured Multiplayer, Team Turn-Based, and the movement being based on a Dice Roll.",
+        "4": "October and November were focused solely on what I dubbed the \"TurnBasedProto\" or \"Proto 1\". I had major hurdles to leap over, as this was the first in a while that I got back into Blueprinting and developing more than designing. There were many days of frustration from being stuck or having to fix a bug that I knew what the issue was, but not <i>how</i> to fix the issue. It also didn't help that I started with some of the biggest mechanics I knew nothing about: Multiplayer. There were also many days of research around the mechanic, and with an even bigger struggle since this Prototype was Top Down. Despite the struggle, parts of the prototype were a success. The Turn-Based parts of it, as well as the movement with the Dice Roll. I will add a video of what the \"final look\" of the prototype looks like. Unfortunately I stopped working on this around mid-November and dubbed this prototype a failure, and then reflected on why it failed and how I can do better with the next prototype. Even if I stopped working on Proto 1, I didn't stop working on other things. I created multiple level ideas. These were all created on draw.io. However, these are in the process of being moved to Miro to have a better structure and easier to link my notes to the layout.",
+        "5": "December was a mixture of different parts, but also a break for the holidays. This was the starting month for the second prototype that I started to work on (and continue to work on to this day). I created \"Proto 2\" or what the project is called: \"InteractionProto\". This is focusing on different \"Need\" mechanics, which is an Inventory System, Equipment System, Player Interaction System and starting to create Item Data that the same setup can be used on later projects. This prototype I've been more confident in, and created a small level around the concept of what I wanted this to become. I've learned a lot from this prototype in different ways to do things, but also just getting better at being able to blueprint.",
+        "6": "January was a continuation of working on the \"InteractionProto\", being able to mostly finish off the Inventory System. Inside the system, I learned how to allow players to drag and drop, have the inventory save what items and where they are placed inside the inventory, whether it being opened or closed, and being able to drag the item outside of the inventory to have the item drop. Additionally, the interaction with an item, as well as highlighting an item when the player is within a certain range.",
+        "7": "The start of February - up until the 9th - was more rocky with the prototype, where adding the Equipment system somewhat broke the way that the drag and drop of items were working. Alongside this, I also started to work on modeling items that will be used in the prototype via Blender and learning how to do basic hand-drawn textures, just so that I know how the workflow is used. Within the carousel will be a video of the state of the prototype, as well as images of the models that have been made."
+      },
+      "tags": {
+        "tagsToUse": ["Unreal Engine 5","Blueprints","Quality Assurance","Bug Writing & Fixing","Google Workspace", "Detail Documentation", "Miro", "Jira", "Blender", "Modeling", "Textures", "Level Design", "Game Development"]
+      }
+    },
+    { 
+      "id": 1,
+      "title": "February 16th, 2026",
+      "bodyContents": {
+        "0": "Last week was all about setting up the blog on this very website! Learning how to do this was interesting, but also frustrating. At first, I was going to do this just with HTML Bootstrap. However, I realized that this would not be a good way of setting this up. And so, I turned to JSON and Javascript with the help of Cursor.",
+        "1": "By Friday, I was able to pretty much get everything set up and ready for the future posts! Hopefully I'll be able to keep up to date with these, as this will be beneficial to the journey ahead on what I'll be making and hopefully releasing."
+      },
+      "tags": {
+        "tagsToUse": ["Javascript","Bootstrap","Cursor","JSON"]
+      }
+    }
+  ]
+}
