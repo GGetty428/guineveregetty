@@ -150,8 +150,10 @@ function BlogPostFound(post, index, arrayOfPosts)
 
     carouselHtml = `
       <div id="${carouselId}" class="carousel slide carousel-fade mb-4" data-bs-ride="carousel">
-        <div class="carousel-inner mx-3 px-5">
-          ${carouselItemsHtml}
+        <div class="carousel-inner">
+          <div class="mx-3 px-5">
+            ${carouselItemsHtml}
+          </div>
         </div>
         <div class="carousel-indicators">
           ${indicatorsHtml}
@@ -170,7 +172,7 @@ function BlogPostFound(post, index, arrayOfPosts)
 
   const modalHtml = `
       <div class="modal fade" id="${modalId}" tabindex="-1" aria-labelledby="${modalId}_Title">
-        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header" style="color: #cbb28e;">
               <h5 class="modal-title w-100 text-center" id="${modalId}_Title">
@@ -191,4 +193,24 @@ function BlogPostFound(post, index, arrayOfPosts)
     `;
 
   modalContainer.insertAdjacentHTML("beforeend", modalHtml);
+
+  // Prevent auto-scroll when modal is shown
+  const modalElement = document.getElementById(modalId);
+  if (modalElement) {
+    modalElement.addEventListener('shown.bs.modal', function() {
+      const modalBody = this.querySelector('.modal-body');
+      if (modalBody) {
+        modalBody.scrollTop = 0; // Reset scroll position to top
+      }
+    });
+    
+    // Prevent any automatic scrolling behavior
+    modalElement.addEventListener('show.bs.modal', function(e) {
+      // Prevent default focus behavior that might cause scrolling
+      const modalBody = this.querySelector('.modal-body');
+      if (modalBody) {
+        modalBody.scrollTop = 0;
+      }
+    });
+  }
 }
