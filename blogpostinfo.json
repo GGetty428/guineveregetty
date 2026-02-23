@@ -114,6 +114,53 @@
       "tags": {
         "tagsToUse": ["Javascript","Bootstrap","Cursor","JSON"]
       }
+    },
+    { 
+      "id": 2,
+      "title": "February 23rd, 2026",
+      "carousel": [
+        {
+          "type": "image",
+          "src": "https://imgur.com/StL4AIg.png",
+          "alt": "BP3_Img_1"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/62gJvhJ.png",
+          "alt": "BP3_Img_2"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/EtXDO2p.png",
+          "alt": "BP3_Img_3"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/5Uk6YvN.png",
+          "alt": "BP3_Img_4"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/Xa8nm4T.png",
+          "alt": "BP3_Img_5"
+        },
+        {
+          "type": "video",
+          "src": "https://imgur.com/Hby9oIg.mp4",
+          "alt": "BP3_Vid_1"
+        }
+      ],
+      "bodyContents": {
+        "0": "Last week started with pushing the Dev Blog up to the server, along with some hotfixes since I tested the build out. Of course, testing while having it in developer mode is much different than when it's pushed to the public. I could only find so many bugs to fix before pushing. Luckily, there were no breaking bugs, and it was just placement that was an issue, so the hotfixes were quick.",
+        "1": "After the hotfixes, I started to wrap up the migration from draw.io to Miro, which included all of my level bubble diagrams and level layouts. This was already halfway done, but there were still some that needed to be complete. Alongside this, I also worked on the more indepth bubble diagrams of the level I called <i>\"Fisher's Rest\"</i>.",
+        "2": "One key takeaway that I learned, is that if you ever start a level or a diagram, never EVER finish the diagram <i>without</i> writing down your notes. Looking at what I created before, and seeing that no notes were written down? It took me a bit of time to sort through my brain and ask myself \"What the heck was I thinking of placing these symbols into this area? How do these symbols work in this area?\" Suffice to say, there was a bit of adding, removing, and editing some of the symbols for <i>\"Fisher's Rest: Town Hall\"</i> in order to satisfy myself with what I wanted for my notes. Notes are everything when it comes to a level in progress!",
+        "3": "The last thing worked on was my \"InteractionProto\", with two cases being worked on. First was adding the limitations to the Equipment Slots. At first, I added them without needing to solely state \"Hey, only this certain category can be placed here!\", mainly for testing purposes to see if they worked.At first, they did not. And so I had to go about fixing that. Once I was able to set things in there, I finally was able to add the category limitations. With a branch checking on the Event On Dragged Cancelled inside of the CoreSlot for if the item's category enum fit with the slot's enum (and some trial and error to fix a few issues while inputting the update), it finally started to work! You can now never put a Potion into the Head Slot! However, with new things comes new bugs.",
+        "4": "The second case on \"Proto 2\" was trying to tie up some of the issues I found during the development of the equipment slots and the adding the Enum Check. One of the biggest issues was there being an error when an item was moved dragged into an Equipment Slot, or dragged back into an Inventory Slot. It was trial and error to figure out what was causing the issue. This issue came from the Inventory Slots having a certain array index that the Equipment Slots do NOT have. So with this, I had to add a check to see if it's less than 0 in order to skip an initial set for what the Inventory uses. This added yet <i>another</i> bug to the bug pile.",
+        "5": "With the total of 5 bugs, and one being fixed, there are 4 bugs that I will be working on for the week of Feb 23rd. As for this post, I will also add some images of what was worked on for the level design, as well as a video of what was fixed."
+      },
+      "tags": {
+        "tagsToUse": ["Blueprints","Unreal Engine 5","Quality Assurance","Miro", "Level Design", "Game Development", "Prototyping"]
+      }
     }
   ]
 }
