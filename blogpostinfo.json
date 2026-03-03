@@ -161,6 +161,76 @@
       "tags": {
         "tagsToUse": ["Blueprints","Unreal Engine 5","Quality Assurance","Miro", "Level Design", "Game Development", "Prototyping"]
       }
+    },
+    { 
+      "id": 3,
+      "title": "March 2nd, 2026",
+      "carousel": [
+        {
+          "type": "image",
+          "src": "https://imgur.com/6Q5xXWX.png",
+          "alt": "BP4_Img_1"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/BNgvQdc.png",
+          "alt": "BP4_Img_2"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/pJ2l1wB.png",
+          "alt": "BP4_Img_3"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/hSGTF9H.png",
+          "alt": "BP4_Img_4"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/wBNQTo5.png",
+          "alt": "BP4_Img_5"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/9Ai8GQa.png",
+          "alt": "BP4_Img_6"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/dcJ4oW9.png",
+          "alt": "BP4_Img_7"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/mza0GzY.png",
+          "alt": "BP4_Img_8"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/DhXqDxj.png",
+          "alt": "BP4_Img_9"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/daY8a53.png",
+          "alt": "BP4_Img_10"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/8n1FAi3.png",
+          "alt": "BP4_Img_11"
+        }
+      ],
+      "bodyContents": {
+        "0": "Last week's focus was bug fixing, as well as solidifying a more Beta stepping stone for the main level inside of \"InteractionProto\". Bug fixing obviously came first. However, as you fix one issue, may more come into play. This was my issue, and most of them were introduced when adding the Equipment System on top of the Inventory System. Because the base that I created was geared more towards solely the Inventory System, adding the Equipment Slots was more or less breaking what was already working. Many of these issues are in separate parts of the system, which makes it worse since there is no \"one fix all\" solution. This was ultimately my lesson for this prototype. Always think about how the system will work as a whole, and not just the individual parts. This also opened my eyes to seeing that I have a long way to go when it comes to coding, that I know what I want out of a system but the output and implementation is the hardest part of a mechanic coming together.",
+        "1": "Of course, I had to step back from bug fixing. I was getting no where except breaking it more as time went on over the week, and I was getting more and more frustrated with it. It's clear to me that I have a long ways of going when it comes to coding systems. For the time being, I will not show a video of the mechanic this time, because I practically broke it completely. I will post a video once I have it unbugged and working again. Continuing with the week, I still had Thursday and Friday ahead of me, and so I turned towards something that I always enjoy doing and absolutely love: Level Design. I thought \"It's finally time for me to solidify the level and actually start to turn the layout into a 3D area, rather than just leaving it on paper.\" Level Design always makes me relaxed and focused, even from the first stages of planning. I will never tire of Level Design, knowing that I can create these areas or even worlds that a player will walk through? It's something that makes me smile while working.",
+        "2": "Level Designing was during Thursday. I hunkered down and just worked through the day until I was finished with a good 3D layout that a player can go through without any hiccups, or too small of areas that the player cannot move through. I also was able to lay a foundation down as to where things will be placed, what items will be picked up, and how they will look within the level.",
+        "3": "Friday was different, where I turned more towards doing some more modeling of items that will be in the level. I started with working on a bowl, which will hopefully turn into a bowl of beef stew. The bowl of course, was the easier part. It's the stew that will be the challenge. I started with trying to see if I could make the stew a 3D model, but after trial and error of it looking dead wrong to me, I decided to make a plane for where the texture of the stew will sit, and the last part I have to do is to create the texture. That will be next week, most likely as a wind down to bug fixing."
+      },
+      "tags": {
+        "tagsToUse": ["Level Design","Bug Fixing","Unreal Engine 5","Blueprints","Blender","Modeling","Textures"]
+      }
     }
   ]
 }
