@@ -231,6 +231,16 @@
       "tags": {
         "tagsToUse": ["Level Design","Bug Fixing","Unreal Engine 5","Blueprints","Blender","Modeling","Textures"]
       }
+    },
+    { 
+      "id": 4,
+      "title": "March 2nd, 2026",
+      "bodyContents": {
+        "0": "Last week doesn't have much of an update unfortunately. There was a lot more personal things going on, which took more priority. The time that I did have to work on anything was focused mostly on updating Jira and adding the bugs that I have found to actual tickets rather than just staying as comments inside of a blueprint. On top of that, I also updated tickets that were worked on based on what was worked on in the project. Knowing where I started and how far I've gotten, is eye opening. It's been a rocky road, but hopefully the road ahead won't be as bad. And also hopefully this week will be better, and that I can get more things done."
+      },
+      "tags": {
+        "tagsToUse": ["Organization", "Jira"]
+      }
     }
   ]
 }
