@@ -234,12 +234,23 @@
     },
     { 
       "id": 4,
-      "title": "March 2nd, 2026",
+      "title": "March 9th, 2026",
       "bodyContents": {
         "0": "Last week doesn't have much of an update unfortunately. There was a lot more personal things going on, which took more priority. The time that I did have to work on anything was focused mostly on updating Jira and adding the bugs that I have found to actual tickets rather than just staying as comments inside of a blueprint. On top of that, I also updated tickets that were worked on based on what was worked on in the project. Knowing where I started and how far I've gotten, is eye opening. It's been a rocky road, but hopefully the road ahead won't be as bad. And also hopefully this week will be better, and that I can get more things done."
       },
       "tags": {
         "tagsToUse": ["Organization", "Jira"]
+      }
+    },
+    { 
+      "id": 5,
+      "title": "March 16th, 2026",
+      "bodyContents": {
+        "0": "Time flew by as last week came and went. Suffice to say, I also wanted to throw Blender into a pit from the hours of work it said \"Adios!\" to on Friday. No backup, no quicksave, just the eternal darkness that my work went into. While working in the middle of fixing the UV on the Beef Stew model, and in the process of working on the base texture that would be used, Blender decided to completely remove all of my work on the texture, and revert some of the fixes on the UV. I almost wanted to quit then and there. However, I took a 10 minute break to calm down, then went back to working on it with a renewed vigor. I wasn't going to let Blender get the upper hand!",
+        "1": "I've almost completely finished the bowl, and have about 15% to go. The rest of the UV (which is just a 4th of the side of the bowl left, that's already prepped to be finished up), and the texture. Before this, was more working on Jira to finally solidify everything. This included rewriting tickets to have a good layout and base to what should be written, as well as creating checklists. That way, everything is written out and not jumbled together, and I will be able to update the Jira more often to incorporate it more into my workflow rather than leaving it off to the side."
+      },
+      "tags": {
+        "tagsToUse": ["Jira", "Blender", "Organization", "UV Editing", "Textures"]
       }
     }
   ]
