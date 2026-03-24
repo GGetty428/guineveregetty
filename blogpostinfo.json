@@ -252,6 +252,29 @@
       "tags": {
         "tagsToUse": ["Jira", "Blender", "Organization", "UV Editing", "Textures"]
       }
+    },
+    { 
+      "id": 6,
+      "title": "March 23rd, 2026",
+      "carousel": [
+        {
+          "type": "image",
+          "src": "https://imgur.com/yk3FI0x.png",
+          "alt": "BP6_Img_1"
+        },
+        {
+          "type": "image",
+          "src": "https://imgur.com/WvpVhOv.png",
+          "alt": "BP6_Img_2"
+        }
+      ],
+      "bodyContents": {
+        "0": "First things first, I scrapped the hand-made texture that I was fashioning for the bowl and soup. It hurt a little bit, but instead of using that time to make textures that are more difficult, I decided to use textures that are free to use and look more realistic. This also included using free stock images for parts of the soup texture as well. Of course, I couldn't find anything that had a semblance of what looked like beef stew, so I found something that still looks to what fit the theme of what I am creating, and found lentil soup. Once I found this, it took me a while to figure out how to turn it into a material that could be used. Normals, Roughness, and trying out some other parts like Displacement, I decided to just work with the normals and roughness to keep it easier on myself for whenever I wanted to use the model again. That way, I can reuse the bowl but change whatever is inside the bowl to what I desire.",
+        "1": "Of course, there is always complications. When exporting into Unreal Engine, easily I noticed that there was something wrong with the model. It was a back and forth to try and fix it, but finally I was able to import it with no issues, minus the materials. I had to remake those inside of the engine, which was no issue at all since I had everything ready. And now, I have a reusable bowl model!"
+      },
+      "tags": {
+        "tagsToUse": ["Blender", "Materials", "Unreal Engine 5"]
+      }
     }
   ]
 }
